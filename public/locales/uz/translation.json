@@ -140,5 +140,26 @@
     "title3": "Raqamli Marketing Trendlari 2024",
     "desc3": "Yangi marketing usullari va strategiyalaridan foydalaning.",
     "link": "Batafsil O‘qing"
+  },
+  "scenario": {
+    "title1": "Domen tanlash va sotib olish",
+    "title2": "Xosting sotib olish",
+    "title3": "Shablon konstruktorini ishga tushirish",
+    "title4": "Mobil ilova ishlab chiqishni buyurtma qilish",
+    "placeholder": "Domen nomini kiriting",
+    "btn1": "Mavjudligini tekshirish",
+    "status1": "Domen mavjud!",
+    "status2": "Domen mavjud emas!",
+    "add": "Savatga qo'shish va sotib olish",
+    "btn2": "Asosiy",
+    "btn3": "Ilg‘or",
+    "btn4": "Korporativ",
+    "status3": "Sizning Tarifingiz",
+    "status4": "Savatga qo‘shing va sotib oling.",
+    "subtitle1": "Shablon tanlang va sozlashni boshlang.",
+    "btn5": "Shablon tanlash",
+    "status5": "Ariza yuborildi. Menejer tez orada siz bilan bog‘lanadi.",
+    "placeholder2": "Loyihangiz haqida qisqacha ma'lumot kiriting",
+    "btn6": "Arizani yuborish"
   }
 }

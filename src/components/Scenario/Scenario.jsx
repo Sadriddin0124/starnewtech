@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
-const DomainPurchase = () => {
+const DomainPurchase = ({t}) => {
   const [domain, setDomain] = useState("");
   const [available, setAvailable] = useState(false);
   const checkAvailability = () => {
@@ -17,27 +18,27 @@ const DomainPurchase = () => {
 
   return (
     <div className="p-6 bg-white shadow rounded">
-      <h2 className="text-xl font-bold mb-4">Domen tanlash va sotib olish</h2>
+      <h2 className="text-xl font-bold mb-4">{t("scenario.title1")}</h2>
       <input
         type="text"
         value={domain}
         onChange={(e) => setDomain(e.target.value)}
-        placeholder="Domen nomini kiriting"
+        placeholder={t("scenario.placeholder")}
         className="border p-2 rounded mb-4"
       />
       <button onClick={checkAvailability} className="bg-blue-500 text-white px-4 py-2 rounded">
-        Mavjudligini tekshirish
+        {t("scenario.btn1")}
       </button>
-      {available && <p className="text-green-500 mt-2">Domen mavjud!</p>}
-      {!available && <p className="text-red-500 mt-2">Domen mavjud emas!</p>}
+      {available && <p className="text-green-500 mt-2">{t("scenario.status1")}</p>}
+      {!available && <p className="text-red-500 mt-2">{t("scenario.status2")}</p>}
       <button onClick={addToCart} className="bg-green-500 text-white px-4 py-2 rounded mt-4">
-        Savatga qo'shish va sotib olish
+        {t("scenario.add")}
       </button>
     </div>
   );
 };
 
-const HostingPurchase = () => {
+const HostingPurchase = ({t}) => {
   const [plan, setPlan] = useState(null);
 
   const selectPlan = (planName) => {
@@ -46,70 +47,71 @@ const HostingPurchase = () => {
 
   return (
     <div className="p-6 bg-white shadow rounded">
-      <h2 className="text-xl font-bold mb-4">Xosting sotib olish</h2>
+      <h2 className="text-xl font-bold mb-4">{t("scenario.title2")}</h2>
       <div>
         <button onClick={() => selectPlan("Asosiy")} className="bg-blue-500 text-white px-4 py-2 rounded mb-2">
-          Asosiy
+          {t("scenario.btn2")}
         </button>
         <button onClick={() => selectPlan("Ilg‘or")} className="bg-blue-500 text-white px-4 py-2 rounded mb-2 ml-2">
-          Ilg‘or
+          {t("scenario.btn3")}
         </button>
         <button onClick={() => selectPlan("Korporativ")} className="bg-blue-500 text-white px-4 py-2 rounded mb-2 ml-2">
-          Korporativ
+          {t("scenario.btn4")}
         </button>
       </div>
       {plan && (
         <p className="mt-4">
-          Siz {plan} tarifini tanladingiz. Savatga qo‘shing va sotib oling.
+          {t("scenario.status3")}: {plan}. {t("scenario.status4")}
         </p>
       )}
     </div>
   );
 };
 
-const TemplateBuilder = () => {
+const TemplateBuilder = ({t}) => {
   return (
     <div className="p-6 bg-white shadow rounded">
-      <h2 className="text-xl font-bold mb-4">Shablon konstruktorini ishga tushirish</h2>
-      <p>Shablon tanlang va sozlashni boshlang.</p>
-      <button className="bg-green-500 text-white px-4 py-2 rounded mt-4">Shablon tanlash</button>
+      <h2 className="text-xl font-bold mb-4">{t("scenario.title3")}</h2>
+      <p>{t("scenario.subtitle1")}</p>
+      <button className="bg-green-500 text-white px-4 py-2 rounded mt-4">{t("scenario.btn5")}</button>
     </div>
   );
 };
 
-const AppDevelopmentOrder = () => {
+const AppDevelopmentOrder = ({t}) => {
   const [description, setDescription] = useState("");
 
   const submitRequest = () => {
-    alert("Ariza yuborildi. Menejer tez orada siz bilan bog‘lanadi.");
+    alert(t("scenario.status5"));
   };
 
   return (
     <div className="p-6 bg-white shadow rounded">
-      <h2 className="text-xl font-bold mb-4">Mobil ilova ishlab chiqishni buyurtma qilish</h2>
+      <h2 className="text-xl font-bold mb-4">{t("scenario.title4")}</h2>
       <textarea
         value={description}
         onChange={(e) => setDescription(e.target.value)}
-        placeholder="Loyihangiz haqida qisqacha ma'lumot kiriting"
+        placeholder={t("scenario.placeholder2")}
         className="border p-2 rounded mb-4 w-full"
       ></textarea>
       <button onClick={submitRequest} className="bg-blue-500 text-white px-4 py-2 rounded">
-        Arizani yuborish
+        {t("scenario.btn6")}
       </button>
     </div>
   );
 };
 
 const UserScenarios = () => {
+  const { t } = useTranslation()
   return (
-    <section className="w-[100%] flex justify-center px-[16px] py-[150px]" id="use_services">
+    <section className="w-[100%] flex justify-center px-[16px] py-[150px] bg-gray-100" id="use_services">
       <div className="max-w-[1200px] w-[100%] mx-auto p-6">
         <h1 className="text-3xl font-bold mb-6">Foydalanuvchi stsenariylari</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <DomainPurchase />
-          <HostingPurchase />
-          <TemplateBuilder />
-          <AppDevelopmentOrder />
+          <DomainPurchase t={t}/>
+          <HostingPurchase t={t}/>
+          <TemplateBuilder t={t}/>
+          <AppDevelopmentOrder t={t}/>
         </div>
       </div>
     </section>

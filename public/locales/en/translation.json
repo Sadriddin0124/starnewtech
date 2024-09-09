@@ -1,120 +1,165 @@
 {
-    "navbar": {
-      "top": "Contact",
-      "link1": "About Us",
-      "link2": "Services",
-      "link3": "Pricing",
-      "link4": "Blog"
-    },
-    "hero": {
-      "title": "Everything for Your Digital Success.",
-      "title1": "Domain Service",
-      "title2": "Hosting Service",
-      "title3": "Website Creation",
-      "subtitle1": "Get a domain at the lowest price and start your project.",
-      "subtitle2": "Flexible hosting service with various plans.",
-      "subtitle3": "Easily create and manage your website.",
-      "btn1": "Buy",
-      "btn2": "Order",
-      "subtitle": "Get the best services and succeed in the digital world!",
-      "rating": "Rating"
-    },
-    "specialOrders": {
-      "title1": "Special Offers",
-      "title2": "Customer Reviews",
-      "title3": "— Ali Valiev",
-      "title4": "— Dilnoza Ahmedova",
-      "title5": "FAQ and Support",
-      "subtitle1": "Expand your possibilities with special rates and service packages!",
-      "subtitle2": "'Since starting with NewTec, my digital activities have grown significantly.'",
-      "subtitle3": "Great services and attention to customers.",
-      "subtitle4": "Click the links below for frequently asked questions and contact information:",
-      "link1": "FAQ",
-      "link2": "Contact Us"
-    },
-    "service": {
-      "title": "Our Services",
-      "subtitle": "We offer a wide range of services for your digital success.",
-      "title1": "Domains",
-      "subtitle1": "Search and purchase domains. Convenient search by name, as well as recommendations for popular domain zones.",
-      "title2": "Hosting",
-      "subtitle2": "Plan options (basic, advanced, corporate) and clear descriptions of differences.",
-      "title3": "Template Builders",
-      "subtitle3": "Option to choose from ready-made templates or create unique designs with a visual editor.",
-      "title4": "Website Creation",
-      "subtitle4": "Service packages including CMS setup (WordPress, Joomla, etc.), CRM integration, and SEO optimization.",
-      "title5": "Branding",
-      "subtitle5": "Logos, corporate style, visual elements.",
-      "title6": "Mobile App Development",
-      "subtitle6": "From simple development to complex solutions with e-commerce functions and API integration."
-    },
-    "tariffs": {
-      "title": "Pricing",
-      "subtitle": "Compare the rates for our services and choose the package that suits you.",
-      "thead1": "Service",
-      "thead2": "Basic",
-      "thead3": "Advanced",
-      "thead4": "Corporate",
-      "tbody1": "Hosting",
-      "tbody2": "$10/month",
-      "tbody3": "$20/month",
-      "tbody4": "$30/month",
-      "tbody5": "Templates",
-      "tbody6": "Branding",
-      "title_2": "Discounts and Special Offers",
-      "title1": "Website + Branding",
-      "title2": "Annual Hosting",
-      "title3": "Premium Package",
-      "desc1": "With 20% discount!",
-      "desc2": "2 months free!",
-      "desc3": "Everything in one package!"
-    },
-    "company": {
-      "title": "About the Company",
-      "subtitle": "NewTec was founded in 2010 and is a leader in digital technology. Our mission is to provide innovative solutions to take our clients' businesses to the next level. The NewTec team aims for digital success through quality service and gaining customer trust."
-    },
-    "team": {
-      "title": "Our Team",
-      "name1": "Rahmatillo Rahimov",
-      "name2": "Nilufar Kholova",
-      "name3": "Javlon Mamatov",
-      "job1": "CEO",
-      "job2": "Technical Director",
-      "job3": "Marketing Specialist"
-    },
-    "clients": {
-      "title": "Clients and Partners",
-      "desc1": "'NewTec helped us achieve success in the digital world!'",
-      "desc2": "'Partnering with NewTec took our brand to a new level.'",
-      "desc3": "With NewTec’s services, we were able to grow our business."
-    },
-    "blogs": {
-      "title": "Blog and Useful Articles",
-      "subtitle": "Latest trends in IT and design, guides, and examples of successful projects.",
-      "title1": "IT and Design Trends",
-      "subtitle1": "Latest news in UX/UI design, SEO strategies, and current articles on hosting choices.",
-      "title2": "Guides and Tutorials",
-      "subtitle2": "Step-by-step guides from domain selection to site setup and improving conversion.",
-      "title3": "Case Studies",
-      "subtitle3": "Examples of successful projects from our clients and their experiences.",
-      "link": "Read More"
-    },
-    "contacts": {
-      "title": "Contact Us",
-      "subtitle": "Have questions? Contact us or use online chat for consultation.",
-      "title1": "Send Us a Message",
-      "input1": "Your Name",
-      "placeholder1": "Enter your name",
-      "input2": "Email",
-      "placeholder2": "Enter your email",
-      "input3": "Message",
-      "placeholder3": "Write your question or comment",
-      "btn1": "Send",
-      "title2": "Online Consultation",
-      "desc": "Got questions? Use our online consultation service.",
-      "btn2": "Start Chat",
-      "title3": "Our Offices",
-      "title4": "Follow us on social media"
-    }
+  "navbar": {
+    "top": "Contact",
+    "link1": "About Us",
+    "link2": "Services",
+    "link3": "Plans and Pricing",
+    "link4": "Blog"
+  },
+  "hero": {
+    "title": "Everything for your digital success.",
+    "title1": "Domain Service",
+    "title2": "Hosting Service",
+    "title3": "Website Creation",
+    "subtitle1": "Get a domain at the lowest price and start your project.",
+    "subtitle2": "Flexible hosting service with various plans.",
+    "subtitle3": "Easily create and manage your website.",
+    "btn1": "Purchase",
+    "btn2": "Order Now",
+    "subtitle": "Get the best services and succeed in the digital world!",
+    "rating": "Rating"
+  },
+  "specialOrders": {
+    "title1": "Special Offers",
+    "title2": "Customer Reviews",
+    "title3": "— Ali Valiyev",
+    "title4": "— Dilnoza Ahmedova",
+    "title5": "FAQ and Support",
+    "subtitle1": "Expand your opportunities with special plans and service packages!",
+    "subtitle2": "'Since starting with NewTec, my digital activities have grown.'",
+    "subtitle3": "Their services are excellent, and they really care about their customers.",
+    "subtitle4": "For FAQs and contact information, click the links below:",
+    "link1": "FAQ",
+    "link2": "Contact Us"
+  },
+  "service": {
+    "title": "Our Services",
+    "subtitle": "We offer a wide range of services for your digital success.",
+    "title1": "Domains",
+    "subtitle1": "Search and purchase domains. Easy search by name, plus recommendations for popular domain zones.",
+    "title2": "Hosting",
+    "subtitle2": "Clear descriptions of plan options (basic, advanced, corporate) and differences.",
+    "title3": "Template Builders",
+    "subtitle3": "Choose from ready-made templates or create a unique design using a visual editor.",
+    "title4": "Website Creation",
+    "subtitle4": "Packages include CMS (WordPress, Joomla, etc.) setup, CRM integration, and SEO optimization.",
+    "title5": "Branding",
+    "subtitle5": "Logos, corporate style, visual elements.",
+    "title6": "Mobile App Development",
+    "subtitle6": "From simple development to complex solutions with e-commerce features and API integration."
+  },
+  "tariffs": {
+    "title": "Plans and Pricing",
+    "subtitle": "Compare our service plans and choose the package that suits you best.",
+    "thead1": "Service",
+    "thead2": "Basic",
+    "thead3": "Advanced",
+    "thead4": "Corporate",
+    "tbody1": "Hosting",
+    "tbody2": "$10/month",
+    "tbody3": "$20/month",
+    "tbody4": "$30/month",
+    "tbody5": "Templates",
+    "tbody6": "Branding",
+    "title_2": "Discounts and Special Offers",
+    "title1": "Website + Branding",
+    "title2": "Annual Hosting",
+    "title3": "Premium Package",
+    "desc1": "20% off!",
+    "desc2": "2 months free!",
+    "desc3": "All in one package!"
+  },
+  "company": {
+    "title": "About the Company",
+    "subtitle": "NewTec was founded in 2010 and is a leader in the field of digital technologies. Our mission is to provide innovative solutions to take our clients' businesses to the next level. The NewTec team aims for digital success through quality services and gaining customers' trust."
+  },
+  "team": {
+    "title": "Our Team",
+    "name1": "Rahmatillo Rahimov",
+    "name2": "Nilufar Kholova",
+    "name3": "Javlon Mamatov",
+    "job1": "Chief Executive Officer",
+    "job2": "Technical Director",
+    "job3": "Marketing Specialist"
+  },
+  "clients": {
+    "title": "Clients and Partners",
+    "desc1": "NewTec helped us succeed in the digital world!'",
+    "desc2": "'Collaboration with NewTec has taken our brand to the next level.'",
+    "desc3": "Through NewTec's services, we were able to grow our business."
+  },
+  "blogs": {
+    "title": "Popular Blogs and Articles",
+    "subtitle": "Articles about the latest trends, guides, and successful projects in IT and design.",
+    "title1": "Trends in IT and Design",
+    "subtitle1": "Up-to-date articles on UX/UI design, SEO strategies, and hosting selection.",
+    "title2": "Guides and Instructions",
+    "subtitle2": "Step-by-step guides on choosing domains, setting up websites, and improving conversion.",
+    "title3": "Case Studies",
+    "subtitle3": "Examples of successful projects from our clients and their experiences.",
+    "link": "Read More"
+  },
+  "contacts": {
+    "title": "Contact Us",
+    "subtitle": "Have questions? Contact us or get advice via online chat.",
+    "title1": "Send Us a Message",
+    "input1": "Your Name",
+    "placeholder1": "Enter your name",
+    "input2": "Email",
+    "placeholder2": "Enter your email",
+    "input3": "Your Message",
+    "placeholder3": "Write your question or feedback",
+    "btn1": "Send",
+    "title2": "Online Consultation",
+    "desc": "Have questions? Use our online consultation service.",
+    "btn2": "Start Chat",
+    "title3": "Our Offices",
+    "title4": "Follow Us on Social Media"
+  },
+  "services": {
+    "title": "Professional Domain, Hosting, and Website Development Services",
+    "subtitle": "One-stop solutions for quality domains, reliable hosting, and modern websites!",
+    "btn": "Use the Service"
+  },
+  "tariff": {
+    "title": "Flexible Plans for You!",
+    "subtitle": "Our plans are affordable and tailored to your needs. Choose our domain and hosting services and start growing!",
+    "btn": "Choose a Plan"
+  },
+  "blog": {
+    "title": "Newtech Blogs – The Latest News in the World of Technology",
+    "subtitle": "Latest news and tips on new technologies, software, and digital solutions. Dive into the world of innovations with us!"
+  },
+  "main_blogs": {
+    "title": "Newtech Blogs",
+    "subtitle": "Articles about new technologies, software, and digital solutions.",
+    "title1": "Artificial Intelligence: The Technology of the Future",
+    "desc1": "How AI technology is transforming business and our lives?",
+    "title2": "Cloud Services – Secure Data Storage",
+    "desc2": "Keep your data secure with cloud services.",
+    "title3": "Digital Marketing Trends 2024",
+    "desc3": "Utilize new marketing methods and strategies.",
+    "link": "Read More"
+  },
+  "scenario": {
+    "title1": "Choose and Purchase a Domain",
+    "title2": "Buy Hosting",
+    "title3": "Launch Template Builder",
+    "title4": "Order Mobile App Development",
+    "placeholder": "Enter a domain name",
+    "btn1": "Check Availability",
+    "status1": "Domain is available!",
+    "status2": "Domain is not available!",
+    "add": "Add to Cart and Purchase",
+    "btn2": "Basic",
+    "btn3": "Advanced",
+    "btn4": "Corporate",
+    "status3": "Your Plan",
+    "status4": "Add to Cart and Purchase.",
+    "subtitle1": "Choose a template and start customizing.",
+    "btn5": "Choose a Template",
+    "status5": "Application submitted. A manager will contact you soon.",
+    "placeholder2": "Enter a brief description of your project",
+    "btn6": "Submit Application"
   }
-  
+}
