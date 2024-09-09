@@ -3,7 +3,7 @@ import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-8 flea justify-center">
+    <footer className="bg-gray-900 text-white py-8 flea justify-center px-[16px]">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[1200px] w-[100%]">
         <div>
           <h2 className="text-lg font-semibold mb-4">NewTec haqida</h2>

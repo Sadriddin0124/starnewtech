@@ -17,7 +17,7 @@ const Tariff = () => {
         {title: t("tariffs.title3"), desc: t("tariffs.desc3"), price: "$800"}
     ]
   return (
-    <section className="bg-gray-100 py-16 flex justify-center" id="tariffs">
+    <section className="bg-gray-100 py-16 flex justify-center w-[100%] px-[16px]" id="tariffs">
         <div className="container max-w-[1200px] mx-auto text-center">
             <h1 className="text-4xl font-bold mb-6">{title1}</h1>
             <p className="text-lg mb-8">{subtitle}</p>

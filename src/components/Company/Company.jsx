@@ -21,8 +21,8 @@ const Company = () => {
     const title1 = t("team.title")
     const title2 = t("clients.title")
   return (
-    <section>
-        <div className="bg-gray-100 py-[150px] flex justify-center">
+    <section className='w-[100%] flex justify-center px-[16px] bg-gray-100'>
+        <div className="container max-w-[1200px py-[150px] flex justify-center">
             <div className="container mx-auto text-center max-w-[1200px] w-[100%]">
                 <div className="mb-12">
                     <h1 className="text-4xl font-bold mb-6">{title}</h1>

@@ -4,8 +4,8 @@ import { useTranslation } from 'react-i18next'
 const Contacts = () => {
     const { t } = useTranslation()
   return (
-    <section className="bg-gray-100 py-16">
-        <div className="container mx-auto max-w-[1200px]">
+    <section className="bg-gray-100 py-16 flex justify-center">
+        <div className="container mx-auto max-w-[1200px] px-[16px]">
             <div className="text-center mb-12">
                 <h1 className="text-4xl font-bold mb-6">{t("contacts.title")}</h1>
                 <p className="text-lg mb-8">{t("contacts.subtitle")}</p>

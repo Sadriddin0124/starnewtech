@@ -19,10 +19,10 @@ const Services = () => {
         {img: CardImg6, title: t("service.title6"), subtitle: t("service.subtitle6")}
     ]
   return (
-    <section className="bg-gray-100 py-16 flex justify-center">
+    <section className="bg-gray-100 py-16 flex justify-center px-[16px]">
         <div className="container max-w-[1200px] mx-auto text-center">
-            <h1 className="text-4xl font-bold mb-6">{title}</h1>
-            <p className="text-lg mb-8">{subtitle}</p>
+            <h1 className="text-[24px] md:text-[35px] font-bold mb-6">{title}</h1>
+            <p className="text-[16px] md:text-[18px] mb-8">{subtitle}</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {
                     cards?.map((item,index)=> {
