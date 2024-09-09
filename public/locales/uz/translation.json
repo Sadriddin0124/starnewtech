@@ -1,0 +1,144 @@
+{
+  "navbar": {
+    "top": "Aloqa",
+    "link1": "Biz haqimizda",
+    "link2": "Xizmatlar",
+    "link3": "Tariflar va narxlar",
+    "link4": "Blog"
+  },
+  "hero": {
+    "title": "Raqamli muvaffaqiyatingiz uchun hammasi.",
+    "title1": "Domen xizmati",
+    "title2": "Xosting xizmati",
+    "title3": "Sayt yaratish",
+    "subtitle1": "Eng past narxda domen oling va loyihangizni boshlang.",
+    "subtitle2": "Turli xil tariflar bilan moslashuvchan xosting xizmati.",
+    "subtitle3": "Saytingizni osongina yarating va boshqaring.",
+    "btn1": "Xarid qilish",
+    "btn2": "Buyurtma berish",
+    "subtitle": "Eng yaxshi xizmatlarni oling va raqamli olamda muvaffaqiyat qozoning!",
+    "rating": "Reyting"
+  },
+  "specialOrders": {
+    "title1": "Maxsus takliflar",
+    "title2": "Mijozlar sharhlari",
+    "title3": "— Ali Valiyev",
+    "title4": "— Dilnoza Ahmedova",
+    "title5": "FAQ va Qo‘llab-quvvatlash",
+    "subtitle1": "Maxsus tariflar va xizmat paketlari bilan imkoniyatlaringizni kengaytiring!",
+    "subtitle2": "'NewTec bilan ish boshlaganimdan beri raqamli faoliyatim yanada o'sdi.'",
+    "subtitle3": "Xizmatlari ajoyib va mijozlarga e’tibor berishadi.",
+    "subtitle4": "Tez-tez so‘raladigan savollar va aloqa ma’lumotlari uchun quyidagi havolalarni bosing:",
+    "link1": "FAQ",
+    "link2": "Biz bilan bog'lanish"
+  },
+  "service": {
+    "title": "Xizmatlarimiz",
+    "subtitle": "Biz sizning raqamli muvaffaqiyatingiz uchun keng ko'lamli xizmatlar taqdim etamiz.",
+    "title1": "Domenlar",
+    "subtitle1": "Domenlarni qidirish va sotib olish. Nomi bo‘yicha qulay qidiruv, shuningdek, mashhur domen zonalari bo‘yicha tavsiyalar.",
+    "title2": "Xosting",
+    "subtitle2": "Tariflar variantlari (asosiy, ilg‘or, korporativ) va farqlarni tushunarli tavsiflash.",
+    "title3": "Shablon konstruktorlari",
+    "subtitle3": "Tayyor shablonlardan tanlash yoki vizual muharrir yordamida noyob dizayn yaratish imkoniyati.",
+    "title4": "Saytlarni yaratish",
+    "subtitle4": "CMS (WordPress, Joomla va h.k.) sozlash, CRM bilan integratsiya, SEO-optimallashtirishni o‘z ichiga olgan xizmat paketlari.",
+    "title5": "Brending",
+    "subtitle5": "Logotiplar, korporativ uslub, vizual elementlar.",
+    "title6": "Mobil ilovalar yaratish",
+    "subtitle6": "Oddiy rivojlantirishdan tortib e-commerce funktsiyalari, API integratsiyasi bilan murakkab echimlargacha."
+  },
+  "tariffs": {
+    "title": "Tariflar va Narxlar",
+    "subtitle": "Xizmatlarimiz uchun tariflarni taqqoslang va sizga mos keladigan paketni tanlang.",
+    "thead1": "Xizmat",
+    "thead2": "Asosiy",
+    "thead3": "Ilg‘or",
+    "thead4": "Korporativ",
+    "tbody1": "Xosting",
+    "tbody2": "$10/oy",
+    "tbody3": "$20/oy",
+    "tbody4": "$30/oy",
+    "tbody5": "Shablonlar",
+    "tbody6": "Brending",
+    "title_2": "Chegirmalar va Maxsus Takliflar",
+    "title1": "Veb-sayt + Brending",
+    "title2": "Yillik Xosting",
+    "title3": "Premium Paket",
+    "desc1": "20% chegirma bilan!",
+    "desc2": "2 oy bepul!",
+    "desc3": "Hammasi bitta paketda!"
+  },
+  "company": {
+    "title": "Kompaniya haqida",
+    "subtitle": "NewTec kompaniyasi 2010 yilda tashkil etilgan bo'lib, raqamli texnologiyalar sohasida yetakchi hisoblanadi. Bizning missiyamiz — mijozlarimizning biznesini yangi bosqichga olib chiqish uchun innovatsion yechimlar taqdim etish. NewTec jamoasi sifatli xizmat ko‘rsatish va mijozlarning ishonchini qozonish orqali raqamli muvaffaqiyatga erishishni maqsad qilgan."
+  },
+  "team": {
+    "title": "Bizning Jamoa",
+    "name1": "Rahmatillo Rahimov",
+    "name2": "Nilufar Xolova",
+    "name3": "Javlon Mamatov",
+    "job1": "Bosh ijrochi direktor",
+    "job2": "Texnik direktor",
+    "job3": "Marketing bo'yicha mutaxassis"
+  },
+  "clients": {
+    "title": "Mijozlar va Hamkorlar",
+    "desc1": "NewTec bizga raqamli olamda muvaffaqiyat qozonishda yordam berdi!'",
+    "desc2": "'NewTec bilan hamkorlik qilish bizning brendimizni yangi darajaga olib chiqdi.'",
+    "desc3": "NewTec xizmatlari orqali biz o‘z biznesimizni rivojlantira oldik."
+  },
+  "blogs": {
+    "title": "Ommabop Blog va Maqolalar",
+    "subtitle": "IT va dizayndagi so‘nggi tendentsiyalar, qo‘llanmalar, va muvaffaqiyatli loyihalar haqidagi maqolalar.",
+    "title1": "IT va Dizayndagi Tendentsiyalar",
+    "subtitle1": "UX/UI dizaynidagi so‘nggi yangiliklar, SEO strategiyalari, va xosting tanlovi bo‘yicha dolzarb maqolalar.",
+    "title2": "Qo‘llanmalar va Ko‘rsatmalar",
+    "subtitle2": "Domen tanlashdan boshlab, saytni sozlash va konversiyani yaxshilash bo‘yicha qadam-baqadam qo‘llanmalar.",
+    "title3": "Kayslar",
+    "subtitle3": "Mijozlarimizning muvaffaqiyatli loyihalari haqida misollar va ularning tajribasi.",
+    "link": "Batafsil o'qish"
+  },
+  "contacts": {
+    "title": "Biz bilan bog'laning",
+    "subtitle": "Savollaringiz bormi? Biz bilan bog'laning yoki onlayn chat orqali maslahat oling.",
+    "title1": "Bizga xabar yuboring",
+    "input1": "Ismingiz",
+    "placeholder1": "Ismingizni kiriting",
+    "input2": "Email",
+    "placeholder2": "Emailingizni kiriting",
+    "input3": "Xabaringiz",
+    "placeholder3": "Savolingizni yoki fikringizni yozing",
+    "btn1": "Yuborish",
+    "title2": "Onlayn Maslahat",
+    "desc": "Savollaringiz bormi? Bizning onlayn maslahat xizmatimizdan foydalaning.",
+    "btn2": "Chatni boshlash",
+    "title3": "Bizning ofislar",
+    "title4": "Bizni ijtimoiy tarmoqlarda kuzatib boring"
+  },
+  "services": {
+    "title": "Professional Domen, Xosting va Sayt Ishlab Chiqish Xizmatlari",
+    "subtitle": "Sifatli domenlar, ishonchli xosting va zamonaviy veb-saytlar yaratish uchun bir martalik yechimlar!",
+    "btn": "Xizmatdan Foydalanish"
+  },
+  "tariff": {
+    "title": "Moslashuvchan Tariflar Siz Uchun!",
+    "subtitle": "Bizning tariflarimiz hamyonbop va ehtiyojlaringizga moslashtirilgan. Domen va xosting xizmatlarimizni tanlang va o‘sishga erishing!",
+    "btn": "Tarifni Tanlash"
+  },
+  "blog": {
+    "title": "Newtech Bloglari – Texnologiyalar Dunyosidagi Eng So‘nggi Yangiliklar",
+    "subtitle": "Yangi texnologiyalar, dasturiy ta'minot va raqamli yechimlar haqidagi so'nggi yangiliklar va maslahatlar. Innovatsiyalar olamiga biz bilan birga sho‘ng'ing!"
+  },
+  "main_blogs": {
+    "title": "Newtech Bloglari",
+    "subtitle": "Yangi texnologiyalar, dasturiy ta'minot va raqamli yechimlar haqida maqolalar.",
+    "title1": "Sun’iy Intellekt: Kelajak Texnologiyasi",
+    "desc1": "AI texnologiyalari biznes va hayotimizni qanday o'zgartirmoqda?",
+    "title2": "Bulutli Xizmatlar – Ishonchli Ma'lumot Saqlash",
+    "desc2": "Bulutli xizmatlar yordamida ma'lumotlaringizni xavfsiz saqlang.",
+    "title3": "Raqamli Marketing Trendlari 2024",
+    "desc3": "Yangi marketing usullari va strategiyalaridan foydalaning.",
+    "link": "Batafsil O‘qing"
+  }
+}
