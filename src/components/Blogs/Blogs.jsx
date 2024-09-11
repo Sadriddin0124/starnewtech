@@ -11,7 +11,7 @@ const Blogs = () => {
         {title: t("blogs.title3"), subtitle: t("blogs.subtitle3"), link: t("blogs.link")}
     ]
   return (
-    <section className="bg-gray-100 py-[150px] flex justify-center px-[16px]">
+    <section className="bg-gray-100 py-[150px] flex justify-center px-[16px]" id="blogs">
         <div className="container mx-auto max-w-[1200px] w-[100%]">
             <div className="text-center mb-12">
                 <h1 className="text-4xl font-bold mb-6">{title}</h1>

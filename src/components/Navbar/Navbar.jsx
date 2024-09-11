@@ -9,10 +9,10 @@ import { IoIosArrowUp, IoMdClose } from "react-icons/io";
 const Navbar = () => {
   const { t } = useTranslation()
   const links = [
-    {text: t("navbar.link1"), path: "/"},
-    {text: t("navbar.link2"), path: "/services"},
-    {text: t("navbar.link3"), path: "/tariffs"},
-    {text: t("navbar.link4"), path: "/blogs"},
+    {text: t("navbar.link1"), path: "#company"},
+    {text: t("navbar.link2"), path: "#services"},
+    {text: t("navbar.link3"), path: "#tariffs"},
+    {text: t("navbar.link4"), path: "#blogs"},
   ]
   const languages = [
     {text: "en"},
@@ -56,7 +56,7 @@ const Navbar = () => {
             {
               links?.map((item,index)=> {
                 return <li key={index} className='text_black text-[14px]'>
-                  <Link to={item?.path}>{item?.text}</Link>
+                  <a href={item?.path}>{item?.text}</a>
                 </li>
               })
             }
@@ -95,7 +95,7 @@ const Navbar = () => {
             {
               links?.map((item,index)=> {
                 return <li key={index} className='text_black text-[14px] hover:underline'>
-                  <Link to={item?.path}>{item?.text}</Link>
+                  <a href={item?.path} onClick={()=>setSideBar(!sideBar)}>{item?.text}</a>
                 </li>
               })
             }

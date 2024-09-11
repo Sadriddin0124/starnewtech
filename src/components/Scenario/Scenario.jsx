@@ -19,16 +19,18 @@ const DomainPurchase = ({t}) => {
   return (
     <div className="p-6 bg-white shadow rounded">
       <h2 className="text-xl font-bold mb-4">{t("scenario.title1")}</h2>
-      <input
-        type="text"
-        value={domain}
-        onChange={(e) => setDomain(e.target.value)}
-        placeholder={t("scenario.placeholder")}
-        className="border p-2 rounded mb-4"
-      />
-      <button onClick={checkAvailability} className="bg-blue-500 text-white px-4 py-2 rounded">
-        {t("scenario.btn1")}
-      </button>
+      <div className="flex items-start sm:flex-row flex-col">
+        <input
+          type="text"
+          value={domain}
+          onChange={(e) => setDomain(e.target.value)}
+          placeholder={t("scenario.placeholder")}
+          className="border p-2 rounded w-[100%]"
+        />
+        <button onClick={checkAvailability} className=" whitespace-nowrap bg-blue-500 text-white px-4 py-2 rounded">
+          {t("scenario.btn1")}
+        </button>
+      </div>
       {available && <p className="text-green-500 mt-2">{t("scenario.status1")}</p>}
       {!available && <p className="text-red-500 mt-2">{t("scenario.status2")}</p>}
       <button onClick={addToCart} className="bg-green-500 text-white px-4 py-2 rounded mt-4">
@@ -73,7 +75,7 @@ const TemplateBuilder = ({t}) => {
     <div className="p-6 bg-white shadow rounded">
       <h2 className="text-xl font-bold mb-4">{t("scenario.title3")}</h2>
       <p>{t("scenario.subtitle1")}</p>
-      <button className="bg-green-500 text-white px-4 py-2 rounded mt-4">{t("scenario.btn5")}</button>
+      <button className="bg-[#E57F34] text-white px-4 py-2 rounded mt-4">{t("scenario.btn5")}</button>
     </div>
   );
 };
@@ -94,7 +96,7 @@ const AppDevelopmentOrder = ({t}) => {
         placeholder={t("scenario.placeholder2")}
         className="border p-2 rounded mb-4 w-full"
       ></textarea>
-      <button onClick={submitRequest} className="bg-blue-500 text-white px-4 py-2 rounded">
+        <button onClick={submitRequest} className="bg-[#E57F34] text-white px-4 py-2 rounded">
         {t("scenario.btn6")}
       </button>
     </div>
@@ -105,7 +107,7 @@ const UserScenarios = () => {
   const { t } = useTranslation()
   return (
     <section className="w-[100%] flex justify-center px-[16px] py-[150px] bg-gray-100" id="use_services">
-      <div className="max-w-[1200px] w-[100%] mx-auto p-6">
+      <div className="max-w-[1200px] w-[100%] mx-auto">
         <h1 className="text-3xl font-bold mb-6">Foydalanuvchi stsenariylari</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <DomainPurchase t={t}/>

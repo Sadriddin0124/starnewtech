@@ -19,7 +19,7 @@ const Services = () => {
         {img: CardImg6, title: t("service.title6"), subtitle: t("service.subtitle6")}
     ]
   return (
-    <section className="bg-gray-100 py-16 flex justify-center px-[16px]">
+    <section className="bg-gray-100 py-16 flex justify-center px-[16px]" id="services">
         <div className="container max-w-[1200px] mx-auto text-center">
             <h1 className="text-[24px] md:text-[35px] font-bold mb-6">{title}</h1>
             <p className="text-[16px] md:text-[18px] mb-8">{subtitle}</p>
